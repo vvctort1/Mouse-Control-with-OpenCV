@@ -60,7 +60,7 @@ while True:
 
     # === GESTOS ===
 
-    # MOVIMENTO: dedo indicador da mão direita adaptado para 21:9 compacto
+    # MOVIMENTO: dedo indicador da mão direita
     if right_hand and finger_up(right_hand, 8, 6):
         x, y = right_hand[8]
     
@@ -98,7 +98,7 @@ while True:
 
 
 
-    # CLIQUE: todos os dedos esticados por 3 segundos
+    # CLIQUE: todos os dedos esticados por 1 segundos
     if right_hand:
         all_fingers_up = all(finger_up(right_hand, tip, tip - 2) for tip in [8, 12, 16, 20])
         thumb_up = right_hand[4][0] < right_hand[3][0]  # Polegar aberto (mais à esquerda que o ponto da articulação)
@@ -138,7 +138,7 @@ while True:
 
 
 
-    # VOLTAR PÁGINA: dedo médio levantado por 3 segundos
+    # VOLTAR PÁGINA: dedo médio levantado por 2 segundos
     if right_hand:
         middle_up = finger_up(right_hand, 12, 10)
         other_fingers_down = not any(finger_up(right_hand, i, i-2) for i in [8, 16, 20])
