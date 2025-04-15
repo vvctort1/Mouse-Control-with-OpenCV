@@ -1,6 +1,6 @@
-#Controle do Mouse utilizando openCV, mediapipe, pyautogui, numpy e time
+# Controle do Mouse utilizando openCV, mediapipe, pyautogui, numpy e time
 
-##Gestos (mão direita):
+## Gestos (mão direita):
 - Dedo indicador levantado => Controle do cursor
 - Dedo mindinho levantado => Scroll Up
 - Punho fechado => Scroll Down
