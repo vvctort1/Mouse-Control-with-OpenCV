@@ -7,14 +7,14 @@
 4. Clonar este repositório
 5. Compilar o código com uma webcam conectada ao computador
 
-## Gestos (mão direita):
+## Gestos (mão direita)
 - Dedo indicador levantado => Controle do cursor
 - Dedo mindinho levantado => Scroll Up
 - Punho fechado => Scroll Down
 - Dedo médio levantado (2s) => Voltar à página anterior
 - Todos os dedos levantados (1s) => Clique
 
-## Integrantes do grupo:
+## Integrantes do grupo
 - Gabriel Genaro Dalaqua rm551986
 - Paloma Mirela dos Santos rm551321
 - Victor Kenzo Toma rm551649
