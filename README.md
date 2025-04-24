@@ -14,3 +14,7 @@
 - Dedo médio levantado (2s) => Voltar à página anterior
 - Todos os dedos levantados (1s) => Clique
 
+## Integrantes do grupo:
+- Gabriel Genaro Dalaqua rm551986
+- Paloma Mirela dos Santos rm551321
+- Victor Kenzo Toma rm551649
